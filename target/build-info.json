@@ -1,0 +1,64 @@
+{
+  "version" : "1.0.1",
+  "name" : "test",
+  "number" : "12",
+  "type" : "MAVEN",
+  "buildAgent" : {
+    "name" : "Maven",
+    "version" : "3.5.3"
+  },
+  "agent" : {
+    "name" : "Jenkins",
+    "version" : "2.89.4"
+  },
+  "started" : "2018-03-27T22:28:23.177+0000",
+  "durationMillis" : 8796,
+  "principal" : "admin",
+  "artifactoryPluginVersion" : "2.15.0",
+  "url" : "http://35.197.38.199:8080/job/test/12/",
+  "vcs" : [ {
+    "revision" : "096f3ed583f5a3da60959bd091a97f7c508af9e5",
+    "url" : "https://github.com/majwang/test.git"
+  } ],
+  "vcsRevision" : "096f3ed583f5a3da60959bd091a97f7c508af9e5",
+  "vcsUrl" : "https://github.com/majwang/test.git",
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
+  },
+  "modules" : [ {
+    "properties" : {
+      "project.build.sourceEncoding" : "UTF-8"
+    },
+    "id" : "org.JFrog:hello:1.0-SNAPSHOT",
+    "artifacts" : [ {
+      "type" : "jar",
+      "sha1" : "4d879cefb53a8bdc3c52586ddfc89ce4991deaae",
+      "md5" : "83c906d5dde6ad0e67795a770d2e84f4",
+      "name" : "hello-1.0-SNAPSHOT.jar"
+    }, {
+      "type" : "pom",
+      "sha1" : "9ff6e24762edbf621730a7953b5f9f3cf1f7d8fe",
+      "md5" : "ce5302b1de23595a64a762d55d55f1d4",
+      "name" : "hello-1.0-SNAPSHOT.pom"
+    } ],
+    "dependencies" : [ {
+      "type" : "jar",
+      "sha1" : "99129f16442844f6a4a11ae22fbbee40b14d774f",
+      "md5" : "1f40fb782a4f2cf78f161d32670f7a3a",
+      "id" : "junit:junit:3.8.1",
+      "scopes" : [ "test" ]
+    } ]
+  } ],
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  }
+}
